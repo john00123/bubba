@@ -1,0 +1,90 @@
+//Comment for compiler
+@import '../../_ntnx/variables';
+@import '../../_ntnx/mixins';
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+*{
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: white;
+}
+
+html{
+  @include font;
+  background: black;
+}
+body{
+  @include flex(center, center, column);
+  @include size(100%, 100%);
+  min-height: 100vh;
+  flex-wrap: wrap;
+  background-color: black;
+}
+
+h1{
+  color: white;
+  font-size:62pt;
+}
+
+p{
+  font-size: 24pt;
+  line-height: 1.5;
+  max-width: 600px;
+}
+
+
+input, button{
+  font-size: 16pt;
+  color:black;
+  border-radius: 25pc;
+  border:none;
+  padding: 8pt 16pt;
+  margin-right: 20px;
+}
+
+input{
+  outline: none;
+  box-sizing: content-box;
+  border: 2px solid transparent;
+  &:focus{
+    border-color: #5284EC;
+  }
+  &:hover{
+    cursor: text;
+  }
+}
+
+button{
+  outline: none;
+  &:hover{
+    color: white;
+    background-color: grey;
+    cursor: pointer;
+  }
+}
+
+
+.form{
+  @include flex(start, start, row);
+}
+
+img{
+  border-radius: 10pt;
+}
+
+footer{
+  position: sticky;
+  top: 100vh;
+  width: 100%;
+  height: 32pt;
+  background: red;
+}
+
+
+section ul{
+  @include flex(center, center, row);
+  list-style: none;
+}
