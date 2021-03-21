@@ -22,22 +22,27 @@ body{
   min-height: 100vh;
   flex-wrap: wrap;
   background-color: black;
+  padding: 20px;
 }
 
 h1{
   color: white;
-  font-size:62pt;
+  font-size:6em;
+  line-height: 1.2;
 }
 
 p{
-  font-size: 24pt;
+  font-size: 2em;
   line-height: 1.5;
+
+}
+
+.hero{
   max-width: 600px;
 }
 
-
 input, button{
-  font-size: 16pt;
+  font-size: 1.5em;
   color:black;
   border-radius: 25pc;
   border:none;
@@ -73,6 +78,7 @@ button{
 
 img{
   border-radius: 10pt;
+  max-width: 100%;
 }
 
 footer{
