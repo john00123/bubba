@@ -29,6 +29,7 @@ h1{
   color: white;
   font-size:6em;
   line-height: 1.2;
+  transition: all cubic-bezier(0.331, 0.441, 0.444, 1.649);
 }
 
 p{
@@ -45,7 +46,7 @@ p{
 input, button{
   font-size: 1.5em;
   color:black;
-  border-radius: 25pc;
+  border-radius: 8pt;
   border:none;
   padding: 8pt 16pt;
   margin-right: 20px;
@@ -66,10 +67,12 @@ input{
 button{
   outline: none;
   background: white;
+  border: 2px solid transparent;
   color:black;
+  border-radius: 7pt;
   &:hover{
     color: white;
-    background-color: grey;
+    background-color: #5284EC;
     cursor: pointer;
   }
 }

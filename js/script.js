@@ -57,7 +57,7 @@ $(document).ready(function() {
       else
       {
         i = i+1;
-        alert('good job');
+        alert('Correct!!!! 🎊');
         $('.question').text(quiz[`${i}`].question);
 
         $('img').attr('src', `${quiz[i].image}`);
@@ -65,13 +65,13 @@ $(document).ready(function() {
         $('input').val('');
 
         if(i===4){
-          $('input').hide();
-          $('img').hide();
+          $("input, img").hide();
           $('button').text('Claim');
+          $('h1').css('font-size','6em');
         }
         else{
-          $('img').show();
-          $('input').show();
+          $('h1').css('font-size','4em');
+          $("input, img").show();
           $('button').text('Submit');
         }
       }
