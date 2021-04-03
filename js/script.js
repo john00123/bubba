@@ -83,7 +83,7 @@ $(document).ready(function() {
 
         $('img').attr('src', `${quiz[i].image}`);
         console.log(i);
-        $('input').val('');
+        $('input').val('') ;
 
         if(i==4){
           $("input, img").hide();
