@@ -7,7 +7,7 @@ const quiz =[
   {
   'question':'This place above the clouds is build on a foundation of ____ , one of the marvels of the world.',
   'answer':'Plaustrite',
-  'image': 'https://github.com/john00123/bubba/blob/092229ca90ef7f8697168a0f791b206b0daecfd1/img/venti.PNG'
+  'image': 'https://github.com/john00123/bubba/blob/092229ca90ef7f8697168a0f791b206b0daecfd1/img/venti.PNG?raw=true'
 },{
   'question':'Find the clue IRL',
   'answer':'Bicycle',
@@ -36,7 +36,7 @@ const quiz =[
 {
   'question':'Find the clue inside the apartment',
   'answer':'2.08990511144',
-  'image': 'https://cdn11.bigcommerce.com/s-f7yrwu2fgw/products/14596/images/34053/IMG_1922__22671.1530062320.500.750.JPG'
+  'image': 'https://cdn11.bigcommerce.com/s-f7yrwu2fgw/products/14596/images/34053/IMG_1922__22671.1530062320.500.750.JPG?raw=true'
 },
 {
   'question':'Congratulations you finished the quiz. Claim your last price',
