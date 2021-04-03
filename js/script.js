@@ -7,7 +7,7 @@ const quiz =[
   {
   'question':'This place above the clouds is build on a foundation of ____ , one of the marvels of the world.',
   'answer':'Plaustrite',
-  'image': '../img/venti.png'
+  'image': 'https://github.com/john00123/bubba/blob/092229ca90ef7f8697168a0f791b206b0daecfd1/img/venti.PNG'
 },{
   'question':'Find the clue IRL',
   'answer':'Bicycle',
@@ -46,7 +46,7 @@ const quiz =[
 {
   'question':'You have completed all the questions, and gotten Nasus new skin !!!Congratulations!! - Text John "peeking through the bushes" to recieve the price.',
   'answer':'',
-  'image': '../img/nasus.png'
+  'image': 'https://github.com/john00123/bubba/blob/092229ca90ef7f8697168a0f791b206b0daecfd1/img/nasus.png
 },
 
 
@@ -85,7 +85,6 @@ $(document).ready(function() {
         console.log(i);
         $('input').val('');
 
-
         if(i==4){
           $("input, img").hide();
           $('button').text('Claim');
@@ -97,11 +96,11 @@ $(document).ready(function() {
         } else if (i==9) {
           $('button').hide();
           $('h1').css('font-size','6em');
-          $("input, img").show();
+          $("img").show();
         }
         else{
           $('h1').css('font-size','4em');
-          $("img").show();
+          $("input, img").show();
           $('button').text('Submit');
         }
       }
