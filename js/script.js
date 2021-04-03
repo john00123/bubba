@@ -46,7 +46,7 @@ const quiz =[
 {
   'question':'You have completed all the questions, and gotten Nasus new skin !!!Congratulations!! - Text John "peeking through the bushes" to recieve the price.',
   'answer':'',
-  'image': 'https://github.com/john00123/bubba/blob/092229ca90ef7f8697168a0f791b206b0daecfd1/img/nasus.png
+  'image': 'https://github.com/john00123/bubba/blob/092229ca90ef7f8697168a0f791b206b0daecfd1/img/nasus.png'
 },
 
 
@@ -83,7 +83,7 @@ $(document).ready(function() {
 
         $('img').attr('src', `${quiz[i].image}`);
         console.log(i);
-        $('input').val('') ;
+        $('input').val('');
 
         if(i==4){
           $("input, img").hide();
